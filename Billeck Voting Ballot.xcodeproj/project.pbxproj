@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7826211E242146B800A35761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7826211D242146B800A35761 /* AppDelegate.swift */; };
+		78262120242146B800A35761 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7826211F242146B800A35761 /* SceneDelegate.swift */; };
+		78262122242146B800A35761 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78262121242146B800A35761 /* ViewController.swift */; };
+		78262125242146B800A35761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78262123242146B800A35761 /* Main.storyboard */; };
+		78262127242146BB00A35761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78262126242146BB00A35761 /* Assets.xcassets */; };
+		7826212A242146BB00A35761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78262128242146BB00A35761 /* LaunchScreen.storyboard */; };
+		78262135242146BB00A35761 /* Billeck_Voting_BallotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78262134242146BB00A35761 /* Billeck_Voting_BallotTests.swift */; };
+		78262140242146BB00A35761 /* Billeck_Voting_BallotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7826213F242146BB00A35761 /* Billeck_Voting_BallotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78262131242146BB00A35761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78262112242146B800A35761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78262119242146B800A35761;
+			remoteInfo = "Billeck Voting Ballot";
+		};
+		7826213C242146BB00A35761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78262112242146B800A35761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78262119242146B800A35761;
+			remoteInfo = "Billeck Voting Ballot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7826211A242146B800A35761 /* Billeck Voting Ballot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Billeck Voting Ballot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7826211D242146B800A35761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7826211F242146B800A35761 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78262121242146B800A35761 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78262124242146B800A35761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78262126242146BB00A35761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78262129242146BB00A35761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7826212B242146BB00A35761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78262130242146BB00A35761 /* Billeck Voting BallotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billeck Voting BallotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78262134242146BB00A35761 /* Billeck_Voting_BallotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billeck_Voting_BallotTests.swift; sourceTree = "<group>"; };
+		78262136242146BB00A35761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7826213B242146BB00A35761 /* Billeck Voting BallotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billeck Voting BallotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7826213F242146BB00A35761 /* Billeck_Voting_BallotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billeck_Voting_BallotUITests.swift; sourceTree = "<group>"; };
+		78262141242146BC00A35761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78262117242146B800A35761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7826212D242146BB00A35761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78262138242146BB00A35761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78262111242146B800A35761 = {
+			isa = PBXGroup;
+			children = (
+				7826211C242146B800A35761 /* Billeck Voting Ballot */,
+				78262133242146BB00A35761 /* Billeck Voting BallotTests */,
+				7826213E242146BB00A35761 /* Billeck Voting BallotUITests */,
+				7826211B242146B800A35761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7826211B242146B800A35761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7826211A242146B800A35761 /* Billeck Voting Ballot.app */,
+				78262130242146BB00A35761 /* Billeck Voting BallotTests.xctest */,
+				7826213B242146BB00A35761 /* Billeck Voting BallotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7826211C242146B800A35761 /* Billeck Voting Ballot */ = {
+			isa = PBXGroup;
+			children = (
+				7826211D242146B800A35761 /* AppDelegate.swift */,
+				7826211F242146B800A35761 /* SceneDelegate.swift */,
+				78262121242146B800A35761 /* ViewController.swift */,
+				78262123242146B800A35761 /* Main.storyboard */,
+				78262126242146BB00A35761 /* Assets.xcassets */,
+				78262128242146BB00A35761 /* LaunchScreen.storyboard */,
+				7826212B242146BB00A35761 /* Info.plist */,
+			);
+			path = "Billeck Voting Ballot";
+			sourceTree = "<group>";
+		};
+		78262133242146BB00A35761 /* Billeck Voting BallotTests */ = {
+			isa = PBXGroup;
+			children = (
+				78262134242146BB00A35761 /* Billeck_Voting_BallotTests.swift */,
+				78262136242146BB00A35761 /* Info.plist */,
+			);
+			path = "Billeck Voting BallotTests";
+			sourceTree = "<group>";
+		};
+		7826213E242146BB00A35761 /* Billeck Voting BallotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7826213F242146BB00A35761 /* Billeck_Voting_BallotUITests.swift */,
+				78262141242146BC00A35761 /* Info.plist */,
+			);
+			path = "Billeck Voting BallotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78262119242146B800A35761 /* Billeck Voting Ballot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78262144242146BC00A35761 /* Build configuration list for PBXNativeTarget "Billeck Voting Ballot" */;
+			buildPhases = (
+				78262116242146B800A35761 /* Sources */,
+				78262117242146B800A35761 /* Frameworks */,
+				78262118242146B800A35761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Billeck Voting Ballot";
+			productName = "Billeck Voting Ballot";
+			productReference = 7826211A242146B800A35761 /* Billeck Voting Ballot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7826212F242146BB00A35761 /* Billeck Voting BallotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78262147242146BC00A35761 /* Build configuration list for PBXNativeTarget "Billeck Voting BallotTests" */;
+			buildPhases = (
+				7826212C242146BB00A35761 /* Sources */,
+				7826212D242146BB00A35761 /* Frameworks */,
+				7826212E242146BB00A35761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78262132242146BB00A35761 /* PBXTargetDependency */,
+			);
+			name = "Billeck Voting BallotTests";
+			productName = "Billeck Voting BallotTests";
+			productReference = 78262130242146BB00A35761 /* Billeck Voting BallotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7826213A242146BB00A35761 /* Billeck Voting BallotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7826214A242146BC00A35761 /* Build configuration list for PBXNativeTarget "Billeck Voting BallotUITests" */;
+			buildPhases = (
+				78262137242146BB00A35761 /* Sources */,
+				78262138242146BB00A35761 /* Frameworks */,
+				78262139242146BB00A35761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7826213D242146BB00A35761 /* PBXTargetDependency */,
+			);
+			name = "Billeck Voting BallotUITests";
+			productName = "Billeck Voting BallotUITests";
+			productReference = 7826213B242146BB00A35761 /* Billeck Voting BallotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78262112242146B800A35761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Brendt Billeck";
+				TargetAttributes = {
+					78262119242146B800A35761 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7826212F242146BB00A35761 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 78262119242146B800A35761;
+					};
+					7826213A242146BB00A35761 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 78262119242146B800A35761;
+					};
+				};
+			};
+			buildConfigurationList = 78262115242146B800A35761 /* Build configuration list for PBXProject "Billeck Voting Ballot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78262111242146B800A35761;
+			productRefGroup = 7826211B242146B800A35761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78262119242146B800A35761 /* Billeck Voting Ballot */,
+				7826212F242146BB00A35761 /* Billeck Voting BallotTests */,
+				7826213A242146BB00A35761 /* Billeck Voting BallotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78262118242146B800A35761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7826212A242146BB00A35761 /* LaunchScreen.storyboard in Resources */,
+				78262127242146BB00A35761 /* Assets.xcassets in Resources */,
+				78262125242146B800A35761 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7826212E242146BB00A35761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78262139242146BB00A35761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78262116242146B800A35761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78262122242146B800A35761 /* ViewController.swift in Sources */,
+				7826211E242146B800A35761 /* AppDelegate.swift in Sources */,
+				78262120242146B800A35761 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7826212C242146BB00A35761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78262135242146BB00A35761 /* Billeck_Voting_BallotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78262137242146BB00A35761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78262140242146BB00A35761 /* Billeck_Voting_BallotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78262132242146BB00A35761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78262119242146B800A35761 /* Billeck Voting Ballot */;
+			targetProxy = 78262131242146BB00A35761 /* PBXContainerItemProxy */;
+		};
+		7826213D242146BB00A35761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78262119242146B800A35761 /* Billeck Voting Ballot */;
+			targetProxy = 7826213C242146BB00A35761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78262123242146B800A35761 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78262124242146B800A35761 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78262128242146BB00A35761 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78262129242146BB00A35761 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78262142242146BC00A35761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78262143242146BC00A35761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78262145242146BC00A35761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Voting Ballot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Voting-Ballot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78262146242146BC00A35761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Voting Ballot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Voting-Ballot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78262148242146BC00A35761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Voting BallotTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Voting-BallotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billeck Voting Ballot.app/Billeck Voting Ballot";
+			};
+			name = Debug;
+		};
+		78262149242146BC00A35761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Voting BallotTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Voting-BallotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billeck Voting Ballot.app/Billeck Voting Ballot";
+			};
+			name = Release;
+		};
+		7826214B242146BC00A35761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Voting BallotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Voting-BallotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Billeck Voting Ballot";
+			};
+			name = Debug;
+		};
+		7826214C242146BC00A35761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Voting BallotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Voting-BallotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Billeck Voting Ballot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78262115242146B800A35761 /* Build configuration list for PBXProject "Billeck Voting Ballot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78262142242146BC00A35761 /* Debug */,
+				78262143242146BC00A35761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78262144242146BC00A35761 /* Build configuration list for PBXNativeTarget "Billeck Voting Ballot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78262145242146BC00A35761 /* Debug */,
+				78262146242146BC00A35761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78262147242146BC00A35761 /* Build configuration list for PBXNativeTarget "Billeck Voting BallotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78262148242146BC00A35761 /* Debug */,
+				78262149242146BC00A35761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7826214A242146BC00A35761 /* Build configuration list for PBXNativeTarget "Billeck Voting BallotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7826214B242146BC00A35761 /* Debug */,
+				7826214C242146BC00A35761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78262112242146B800A35761 /* Project object */;
+}
